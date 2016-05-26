@@ -40,6 +40,9 @@
 		<mainClass>com.leightonobrien.pi.serialcomm.App</mainClass>
 	    </manifest>
 	  </archive>
+	  <descriptorRefs>
+          <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
 	</configuration>
     </plugin>
   </plugins>

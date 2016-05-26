@@ -12,7 +12,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        commWithPort("USB-Serial");
+        commWithPort("AMA0");
         try{
         	Thread.sleep(10000);
         }catch(Exception e){
